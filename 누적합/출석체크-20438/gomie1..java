@@ -5,35 +5,47 @@ import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader (System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        StringBuilder sb = new StringBuilder();
+        int N = Integer.parseInt(st.nextToken()); // 학생 수
+        int K = Integer.parseInt(st.nextToken()); // 졸고 있는 학생 수
+        int Q = Integer.parseInt(st.nextToken()); // 출석 코드를 보낼 학생 수
+        int M = Integer.parseInt(st.nextToken()); // 주어질 구간의 수
 
-        int N = Integer.parseInt(st.nextToken()); // 표의 크기
-        int M = Integer.parseInt(st.nextToken()); // 합을 구해야 하는 횟수
+        // 졸고 있는 학생 = 2, 출첵한 학생 = 1, 아무것도 안한 학생 = 0
+        int[] arr = new int[N + 3];
+        st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < K; i++) {
+            int idx = Integer.parseInt(st.nextToken()); // 졸고 있는 학생 번호
+            arr[idx] = 2; // 해당 학생 졸았다고 표시
+        }
 
-        // 누적합 배열 생성 및 계산
-        int[][] mtrx = new int[N+1][N+1];
-        for(int i = 1; i < N+1; i++) {
-            st = new StringTokenizer(br.readLine());
-            for(int j = 1; j < N+1; j++) {
-                int value = Integer.parseInt(st.nextToken());
-                mtrx[i][j] = mtrx[i-1][j] + mtrx[i][j-1] - mtrx[i-1][j-1] + value;
+        st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < Q; i++) {
+            int idx = Integer.parseInt(st.nextToken()); // 출석 코드 번호
+            if (arr[idx] != 2) { // 출석 코드를 보낸 학생이 졸지 않고 있다면
+                // 입장 번호의 배수인 학생들에게 번호 전달
+                for (int num = idx; num < N + 3; num += idx) {
+                    if (arr[num] != 2) // 배수인 학생이 졸지 않는다면
+                        arr[num] = 1; // 출석 처리
+                }
             }
         }
 
-        int x1, x2, y1, y2, res;
-        for(int i = 0; i < M; i++) {
-            res = 0;
-
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
-            x1 = Integer.parseInt(st.nextToken());
-            y1 = Integer.parseInt(st.nextToken());
-            x2 = Integer.parseInt(st.nextToken());
-            y2 = Integer.parseInt(st.nextToken());
+            int S = Integer.parseInt(st.nextToken()); // Start
+            int E = Integer.parseInt(st.nextToken()); // End
 
-            res = mtrx[x2][y2] - mtrx[x2][y1-1] - mtrx[x1-1][y2] + mtrx[x1-1][y1-1];
-            sb.append(res + "\n");
+            int count = 0;
+            for (int j = S; j <= E; j++) {
+                // 출석 코드를 받지 못했거나 자고있는 학생이라면 (출석 X)
+                if (arr[j] == 0 || arr[j] == 2) {
+                    count++; // 출석이 되지 않은 학생의 수 1 증가
+                }
+            }
+            sb.append(count).append("\n");
         }
         System.out.println(sb);
     }
