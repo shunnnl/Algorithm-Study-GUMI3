@@ -30,3 +30,7 @@
 |1|20438|[출석체크](https://www.acmicpc.net/problem/20438)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|누적합|
 |1|11660|[구간 합 구하기 5](https://www.acmicpc.net/problem/11660)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|누적합|
 |1|1749|[점수따먹기](https://www.acmicpc.net/problem/1749)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|누적합|
+|2|1260|[DFS와 BFS](https://www.acmicpc.net/problem/1260)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|그래프|
+|2|1325|[효율적인 해킹](https://www.acmicpc.net/problem/1325)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|그래프|
+|2|16954|[움직이는 미로 탈출](https://www.acmicpc.net/problem/16954)|<img height="25px" width="25px" src="https://github.com/user-attachments/assets/c37556b3-fbfe-4cb6-ac4c-2fae9451f489"/>|그래프|
+
