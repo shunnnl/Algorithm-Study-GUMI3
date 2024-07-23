@@ -11,7 +11,7 @@
 
 - `/[알고리즘 분류]/[문제 이름-문제 번호]/[깃허브 아이디].py`
 - ex) `/구현/상어초등학교-21608/therealjamesjung.py`
-- push 시 'feat: [week명] 분류명 제출'
+- push 시 'feat: [week명_이름] 분류명 제출'
 - ex) 'feat: [week1] 누적합 제출'
 
 ## 주차별 문제
