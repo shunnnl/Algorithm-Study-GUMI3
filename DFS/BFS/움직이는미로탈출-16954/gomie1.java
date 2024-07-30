@@ -1,83 +1,110 @@
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.StringTokenizer;
 import java.util.Queue;
-
-// queue에 넣기 위한 노드
-class Node{
-    int x;
-    int y;
-    Node(int x, int y){
-        this.x=x;
-        this.y=y;
-    }
-}
+import java.util.StringTokenizer;
 
 public class Main {
-    static char arr[][];
+    static char[][] board;
+    static boolean[][] visited;
 
-    public static void main(String[] args) throws Exception{
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        arr=new char[8][8]; // 미로를 나타내는 2차원 배열 (. : 가능, # : 불가능)
-        boolean visited[][] = new boolean[8][8]; // 방문 여부 판단하는 2차원 배열
-        int[] dx={1,1,-1,-1,0,0,1,-1,0};
-        int[] dy={-1,1,-1,1,1,-1,0,0,0};
+    // 상하좌우 & 대각선 & 제자리
+    static int[] dx = {-1, 1, 0, 0, -1, -1, 1, 1, 0};
+    static int[] dy = {0, 0, -1, 1, -1, 1, -1, 1, 0};
 
-        for(int i=0;i<8;i++){
-            arr[i]=br.readLine().toCharArray();
+    static class Pos {
+        int x;
+        int y;
+
+        Pos(int x, int y) {
+            this.x = x;
+            this.y = y;
         }
+    }
 
-        Queue<Node> queue=new LinkedList<>();
-        queue.add(new Node(7,0));
-
-        while(!queue.isEmpty()){
-            visited = new boolean[8][8];
-
-            int size = queue.size();
-            for(int i = 0; i < size; i++) {
-                Node tmp = queue.poll();
-
-                if(tmp.x==0 && tmp.y==7){
-                    System.out.println(1);
-                    return;
-                }
-
-                for(int d=0;d<9;d++){
-                    int nx=tmp.x + dx[d];
-                    int ny=tmp.y + dy[d];
-                    if(nx>=0 && nx<8 && ny>=0 && ny<8){
-                        if(visited[nx][ny]==false && arr[nx][ny]=='.'){
-                            if(nx==0){
-                                visited[nx][ny] = true;
-                                queue.offer(new Node(nx, ny));
-                                continue;
-                            }
-                            if(arr[nx-1][ny]=='.') {
-                                visited[nx][ny] = true;
-                                queue.offer(new Node(nx, ny));
-                            }
-                        }
+    static void moveWall() {
+        for(int i = 7; i >= 0; i--) {
+            for(int j = 0; j < 8; j++) {
+                if(board[i][j] == '#') {
+                    board[i][j] = '.';
+                    if(i != 7) {
+                        board[i+1][j] = '#';
                     }
                 }
             }
-            wall_move();
         }
-        System.out.println(0);
     }
 
-    public static void wall_move(){
-        // 제일 아래 부분은 . 로 초기화하고 시작
-        for(int i=0;i<8;i++){
-            arr[7][i]='.';
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        board = new char[8][8];
+        int cntWall = 0;
+        for(int i = 0; i < 8; i++) {
+            board[i]=br.readLine().toCharArray();
         }
-        for(int i=6;i>=0;i--){
-            for(int j=0;j<8;j++){
-                if(arr[i][j]=='#'){
-                    arr[i][j]='.';
-                    arr[i+1][j]='#';
+
+        for(int i = 0; i < 8; i++) {
+            for(int j = 0; j < 8; j++) {
+                if(board[i][j] == '#') {
+                    cntWall++;
                 }
             }
         }
+
+        if(cntWall == 0) { // 체스판에 벽이 없으면 도착지에 갈 수 있으므로
+            System.out.println(1); // 1을 출력하고
+            return; // 종료
+        }
+
+        bfs(7, 0);
+    }
+
+    private static void bfs(int start_x, int start_y) {
+        Queue<Pos> queue = new LinkedList<Pos>(); // 큐 생성
+        queue.add(new Pos(start_x, start_y)); // 시작 위치 큐에 넣어주기
+
+        while(!queue.isEmpty()) {
+            visited = new boolean[8][8]; // 벽이 움직여서 새로운 경로가 생길 수 있으므로 한 턴마다 초기화
+
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                Pos now = queue.poll();
+
+                if(now.x == 0 && now.y==7) { // 도착지인 오른쪽 끝에 도착하면
+                    System.out.println(1); // 1을 출력하고
+                    return; // 종료
+                }
+
+                if(board[now.x][now.y] == '#') { // 현재 위치가 벽인 경우
+                    continue;
+                }
+
+                for(int j = 0; j < 9; j++) {
+                    int nx = now.x + dx[j];
+                    int ny = now.y + dy[j];
+
+                    if(nx < 0 || nx >= 8 || ny < 0 || ny >= 8) { // 가지치기
+                        continue;
+                    }
+
+                    if(board[nx][ny] == '#') {
+                        continue; // 벽을 만나면 pass
+                    }
+
+                    if(visited[nx][ny]) {
+                        continue; // 방문한 곳이면 pass
+                    }
+
+                    queue.add(new Pos(nx, ny));
+                    visited[nx][ny] = true;
+                }
+            }
+
+            moveWall(); // 벽을 아래로 이동
+        }
+        System.out.println(0);
     }
 }
