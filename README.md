@@ -23,7 +23,7 @@
 <br>
 
 ## 주차별 문제
-> **푼 문제 수: 3**
+> **푼 문제 수: 6**
 
 |주차|문제 번호|문제이름|레벨|분류|
 |:-:|:-:|:-:|:-:|:-:|
@@ -32,5 +32,8 @@
 |1|1749|[점수따먹기](https://www.acmicpc.net/problem/1749)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|누적합|
 |2|1260|[DFS와 BFS](https://www.acmicpc.net/problem/1260)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|그래프|
 |2|1325|[효율적인 해킹](https://www.acmicpc.net/problem/1325)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|그래프|
-|2|16954|[움직이는 미로 탈출](https://www.acmicpc.net/problem/16954)|<img height="25px" width="25px" src="https://github.com/user-attachments/assets/c37556b3-fbfe-4cb6-ac4c-2fae9451f489"/>|그래프|
+|2|16954|[움직이는 미로 탈출](https://www.acmicpc.net/problem/16954)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|그래프|
+|3|11728|[배열 합치기](https://www.acmicpc.net/problem/11728)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|투포인터|
+|3|20922|[겹치는 건 싫어](https://www.acmicpc.net/problem/20922)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|투포인터|
+|3|20366|[같이 눈사람 만들래?](https://www.acmicpc.net/problem/20366)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|투포인터|
 
