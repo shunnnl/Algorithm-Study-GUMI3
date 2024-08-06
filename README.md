@@ -36,4 +36,9 @@
 |3|11728|[배열 합치기](https://www.acmicpc.net/problem/11728)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|투포인터|
 |3|20922|[겹치는 건 싫어](https://www.acmicpc.net/problem/20922)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|투포인터|
 |3|20366|[같이 눈사람 만들래?](https://www.acmicpc.net/problem/20366)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|투포인터|
+|4|11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|트리|
+|4|1991|[트리 순회](https://www.acmicpc.net/problem/1991)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|트리|
+|4|4256|[트리](https://www.acmicpc.net/problem/4256)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|트리|
+
+
 
