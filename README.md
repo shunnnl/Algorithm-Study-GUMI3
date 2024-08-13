@@ -39,6 +39,7 @@
 |4|11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|트리|
 |4|1991|[트리 순회](https://www.acmicpc.net/problem/1991)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|트리|
 |4|4256|[트리](https://www.acmicpc.net/problem/4256)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|트리|
-
-
+|5|2422|[한윤정이 이탈리아에 가서 아이스크림을 사먹는데](https://www.acmicpc.net/problem/2422)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|완전탐색|
+|5|2503|[숫자야구](https://www.acmicpc.net/problem/2503)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>|완전탐색|
+|5|14500|[테트로미노](https://www.acmicpc.net/problem/14500)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|완전탐색|
 
