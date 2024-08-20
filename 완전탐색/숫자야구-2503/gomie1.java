@@ -3,6 +3,12 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
+/*
+* 문제 : 숫자야구
+* 메모리 : 15348KB
+* 시간 : 116ms
+*/
+
 public class _2503_숫자야구 {
 
     static ArrayList<question> arr = new ArrayList<>();
