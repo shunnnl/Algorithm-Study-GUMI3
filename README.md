@@ -47,5 +47,6 @@
 |7|16953|[AtoB](https://www.acmicpc.net/problem/16953)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|그리디|
 |7|2212|[센서](https://www.acmicpc.net/problem/2212)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|그리디|
 |7|8980|[택배](https://www.acmicpc.net/problem/8980)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|그리디|
-
-
+|8|22871|[징검다리건너기(large)](https://www.acmicpc.net/problem/22871)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|이분탐색|
+|8|3079|[입국심사](https://www.acmicpc.net/problem/3079)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|이분탐색|
+|8|1300|[K번째 수](https://www.acmicpc.net/problem/1300)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|이분탐색|
