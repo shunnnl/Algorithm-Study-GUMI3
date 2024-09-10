@@ -41,12 +41,9 @@
 |5|2422|[한윤정이 이탈리아에 가서 아이스크림을 사먹는데](https://www.acmicpc.net/problem/2422)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|완전탐색|
 |5|2503|[숫자야구](https://www.acmicpc.net/problem/2503)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>|완전탐색|
 |5|14500|[테트로미노](https://www.acmicpc.net/problem/14500)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|완전탐색|
-|6|2422|[한윤정이 이탈리아에 가서 아이스크림을 사먹는데](https://www.acmicpc.net/problem/2422)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|완전탐색|
-|6|2503|[숫자야구](https://www.acmicpc.net/problem/2503)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>|완전탐색|
-|6|14500|[테트로미노](https://www.acmicpc.net/problem/14500)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|완전탐색|
-|7|16953|[AtoB](https://www.acmicpc.net/problem/16953)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|그리디|
-|7|2212|[센서](https://www.acmicpc.net/problem/2212)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|그리디|
-|7|8980|[택배](https://www.acmicpc.net/problem/8980)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|그리디|
-|8|22871|[징검다리건너기(large)](https://www.acmicpc.net/problem/22871)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|이분탐색|
-|8|3079|[입국심사](https://www.acmicpc.net/problem/3079)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|이분탐색|
-|8|1300|[K번째 수](https://www.acmicpc.net/problem/1300)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|이분탐색|
+|6|16953|[AtoB](https://www.acmicpc.net/problem/16953)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|그리디|
+|6|2212|[센서](https://www.acmicpc.net/problem/2212)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|그리디|
+|6|8980|[택배](https://www.acmicpc.net/problem/8980)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|그리디|
+|7|22871|[징검다리건너기(large)](https://www.acmicpc.net/problem/22871)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|이분탐색|
+|7|3079|[입국심사](https://www.acmicpc.net/problem/3079)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|이분탐색|
+|7|1300|[K번째 수](https://www.acmicpc.net/problem/1300)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|이분탐색|
