@@ -47,3 +47,6 @@
 |7|22871|[징검다리건너기(large)](https://www.acmicpc.net/problem/22871)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|이분탐색|
 |7|3079|[입국심사](https://www.acmicpc.net/problem/3079)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|이분탐색|
 |7|1300|[K번째 수](https://www.acmicpc.net/problem/1300)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|이분탐색|
+|8|18352|[특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|최단거리|
+|8|1446|[지름길](https://www.acmicpc.net/problem/1446)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|최단거리|
+|8|1507|[궁금한민호](https://www.acmicpc.net/problem/1507)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|최단거리|
