@@ -50,3 +50,6 @@
 |8|18352|[특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|최단거리|
 |8|1446|[지름길](https://www.acmicpc.net/problem/1446)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|최단거리|
 |8|1507|[궁금한민호](https://www.acmicpc.net/problem/1507)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|최단거리|
+|9|12933|[오리](https://www.acmicpc.net/problem/12933)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>|구현|
+|9|15787|[기차가 어둠을 헤치고 은하수를](https://www.acmicpc.net/problem/15787)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|구현|
+|9|22859|[HTML 파싱](https://www.acmicpc.net/problem/22859)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|구현|
