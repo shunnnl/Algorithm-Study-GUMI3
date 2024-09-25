@@ -53,6 +53,6 @@
 |9|12933|[오리](https://www.acmicpc.net/problem/12933)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>|구현|
 |9|15787|[기차가 어둠을 헤치고 은하수를](https://www.acmicpc.net/problem/15787)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|구현|
 |9|22859|[HTML 파싱](https://www.acmicpc.net/problem/22859)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|구현|
-|10|14712|[넴모넴모](https://www.acmicpc.net/problem/14712)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|백트래킹|
+|10|14712|[넴모넴모](https://www.acmicpc.net/problem/14712)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|백트래킹|
 |10|16987|[계란으로 계란치기](https://www.acmicpc.net/problem/16987)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|백트래킹|
 |10|9663|[N-Queen](https://www.acmicpc.net/problem/9663)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|백트래킹|
