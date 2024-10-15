@@ -61,4 +61,7 @@
 |11|17135|[캐슬 디펜스](https://www.acmicpc.net/problem/17135)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|그래프|
 |12|17136|[색종이 붙이기](https://www.acmicpc.net/problem/17136)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|브루트포스/백트래킹|
 |12|17281|[⚾](https://www.acmicpc.net/problem/17281)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|구현/브루트포스|
-|12|17406|[배열 돌리기 4](https://www.acmicpc.net/problem/17406)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|구현/백트래킹/브루트포스|
+|13|17471|[게리 맨더링](https://www.acmicpc.net/problem/17471)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|그래프|
+|13|2146|[다리 만들기](https://www.acmicpc.net/problem/2146)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|그래프|
+|13|2146|[다리 만들기](https://www.acmicpc.net/problem/2146)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|그래프|
+
