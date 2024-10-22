@@ -1,4 +1,4 @@
-package algo.study.week12;
+package algo.study.week13;
 /**
  * 백준 14503 로봇 청소기
  * 메모리 : 14364 KB

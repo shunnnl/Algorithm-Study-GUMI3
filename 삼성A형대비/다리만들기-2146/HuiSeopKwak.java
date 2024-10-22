@@ -1,4 +1,4 @@
-package algo.study.week12;
+package algo.study.week13;
 /**
  * 백준 2146 다리 만들기
  * 메모리 : 137716 KB
