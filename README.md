@@ -64,4 +64,4 @@
 |13|17471|[게리 맨더링](https://www.acmicpc.net/problem/17471)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|그래프|
 |13|2146|[다리 만들기](https://www.acmicpc.net/problem/2146)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|그래프|
 |13|14503|[로봇 청소기](https://www.acmicpc.net/problem/14503)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|구현|
-|14|17472|[다리 만들기 2](https://www.acmicpc.net/problem/17472)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/>|구현|
+|14|17472|[다리 만들기 2](https://www.acmicpc.net/problem/17472)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/>|그래프|
