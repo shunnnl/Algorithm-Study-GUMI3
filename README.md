@@ -67,3 +67,7 @@
 |14|17472|[다리 만들기 2](https://www.acmicpc.net/problem/17472)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/>|그래프|
 |14|3190|[뱀](https://www.acmicpc.net/problem/3190)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|구현|
 |14|16236|[아기상어](https://www.acmicpc.net/problem/16236)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|구현/그래프|
+|15|16234|[인구 이동](https://www.acmicpc.net/problem/16234)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/>|그래프|
+|15|11559|[Puyo Puyo](https://www.acmicpc.net/problem/11559)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|구현|
+|15|15685|[드래곤 커브](https://www.acmicpc.net/problem/15685)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|구현/그래프|
+
